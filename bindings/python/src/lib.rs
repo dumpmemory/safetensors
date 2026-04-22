@@ -1597,7 +1597,7 @@ fn get_pydtype(
 }
 
 pyo3::create_exception!(
-    safetensors_rust,
+    safetensors._safetensors_rust,
     SafetensorError,
     PyException,
     "Custom Python Exception for Safetensor errors."
